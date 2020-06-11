@@ -1,0 +1,9 @@
+.vscode/
+dist/
+node_modules/
+
+.DS_Store
+.tsbuildinfo
+npm-debug.log
+package-lock.json
+Thumbs.db
