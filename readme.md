@@ -1,6 +1,6 @@
 # Project name
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/i-like-robots/project-name/blob/master/LICENSE) [![Build Status](https://travis-ci.org/i-like-robots/project-name.svg?branch=master)](https://travis-ci.org/i-like-robots/project-name) [![Coverage Status](https://coveralls.io/repos/github/i-like-robots/project-name/badge.svg?branch=master)](https://coveralls.io/github/i-like-robots/project-name) [![npm version](https://img.shields.io/npm/v/project-name.svg?style=flat)](https://www.npmjs.com/package/project-name) [![Greenkeeper badge](https://badges.greenkeeper.io/i-like-robots/project-name.svg)](https://greenkeeper.io/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/i-like-robots/project-name/blob/master/LICENSE) [![Build Status](https://travis-ci.org/i-like-robots/project-name.svg?branch=master)](https://travis-ci.org/i-like-robots/project-name) [![Coverage Status](https://coveralls.io/repos/github/i-like-robots/project-name/badge.svg?branch=master)](https://coveralls.io/github/i-like-robots/project-name) [![npm version](https://img.shields.io/npm/v/project-name.svg?style=flat)](https://www.npmjs.com/package/project-name)
 
 Description.
 
