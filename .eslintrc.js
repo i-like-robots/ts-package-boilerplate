@@ -8,13 +8,4 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
-  overrides: [
-    {
-      files: ['**/*.spec.ts', '**/*.test.ts'],
-      plugins: ['jest'],
-      env: {
-        'jest/globals': true,
-      },
-    },
-  ],
 }

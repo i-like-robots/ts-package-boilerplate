@@ -13,7 +13,6 @@
     "spec": "vitest run",
     "verify": "npm run lint && npm run type-check && npm run format",
     "test": "npm run verify && npm run spec",
-    "prepare": "husky install",
     "prepublishOnly": "npm run test && npm run build"
   },
   "keywords": [],
@@ -28,17 +27,13 @@
   },
   "homepage": "https://github.com/i-like-robots/project-name",
   "devDependencies": {
-    "@types/jest": "^27.4.0",
     "@types/node": "^14.14.30",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint": "^7.30.0",
-    "eslint-plugin-jest": "^26.1.0",
     "husky": "^4.3.5",
-    "jest": "^27.5.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
-    "ts-jest": "^27.1.0",
     "typescript": "^4.3.5",
     "vite": "^2.8.6",
     "vitest": "^0.7.12"
