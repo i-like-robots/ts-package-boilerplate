@@ -2,17 +2,19 @@
   "name": "project-name",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/cjs.js",
+  "module": "dist/es.js",
   "types": "src/index.ts",
   "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc --incremental",
+    "build": "vite build -c vite.config.js",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ext ts,tsx,js,jsx",
-    "format": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
-    "spec": "jest",
+    "format": "prettier --write '**/*.{ts,tsx,js,jsx,json,yml}'",
+    "spec": "vitest run",
     "verify": "npm run lint && npm run type-check && npm run format",
-    "test": "npm run verify && npm run spec"
+    "test": "npm run verify && npm run spec",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run test && npm run build"
   },
   "keywords": [],
   "author": "Matt Hinchliffe",
@@ -25,7 +27,6 @@
     "url": "https://github.com/i-like-robots/project-name/issues"
   },
   "homepage": "https://github.com/i-like-robots/project-name",
-  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/node": "^14.14.30",
@@ -38,7 +39,9 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "ts-jest": "^27.1.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "vite": "^2.8.6",
+    "vitest": "^0.7.12"
   },
   "engines": {
     "node": ">= 14.15.0"
