@@ -13,7 +13,8 @@
     "spec": "vitest run",
     "verify": "npm run lint && npm run type-check && npm run format",
     "test": "npm run verify && npm run spec",
-    "prepublishOnly": "npm run test && npm run build"
+    "prepublishOnly": "npm run test && npm run build",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Matt Hinchliffe",
@@ -31,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint": "^8.12.0",
-    "husky": "^4.3.5",
+    "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.6.0",
     "typescript": "^4.6.0",
