@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "ts-package-boilerplate",
   "version": "0.0.0",
   "description": "",
   "type": "module",
@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i-like-robots/project-name.git"
+    "url": "git+https://github.com/i-like-robots/ts-package-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/i-like-robots/project-name/issues"
+    "url": "https://github.com/i-like-robots/ts-package-boilerplate/issues"
   },
-  "homepage": "https://github.com/i-like-robots/project-name",
+  "homepage": "https://github.com/i-like-robots/ts-package-boilerplate",
   "devDependencies": {
     "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
