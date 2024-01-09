@@ -19,8 +19,8 @@
   "scripts": {
     "build": "pkgroll",
     "type-check": "tsc --noEmit",
-    "lint": "eslint . --ext ts,tsx,js,jsx",
-    "format": "prettier --write '**/*.{ts,tsx,js,jsx,json,yml}'",
+    "lint": "eslint . --ext ts,tsx,js,cjs,mjs,jsx",
+    "format": "prettier --write '**/*.{ts,tsx,js,cjs,mjs,jsx,json,yml}'",
     "spec": "vitest run",
     "verify": "npm run lint && npm run type-check && npm run format",
     "test": "npm run verify && npm run spec",

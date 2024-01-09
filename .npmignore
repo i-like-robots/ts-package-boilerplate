@@ -4,7 +4,7 @@
 .eslintignore
 .eslintrc.js
 .huskyrc.js
-.lintstagedrc.js
+.lintstagedrc
 .prettierignore
 .prettierrc.json
 .tsbuildinfo
