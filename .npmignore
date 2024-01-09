@@ -3,7 +3,6 @@
 .editorconfig
 .eslintignore
 .eslintrc.js
-.huskyrc.js
 .lintstagedrc
 .prettierignore
 .prettierrc.json
