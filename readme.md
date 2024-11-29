@@ -12,7 +12,7 @@ import foo from 'ts-package-boilerplate'
 
 ## Installation
 
-This is a [Node.js] module available through the [npm] registry. Node 18 or higher is required.
+This is a [Node.js] module available through the [npm] registry. Node 22 or higher is required.
 
 Installation is done using the [npm install] command:
 
