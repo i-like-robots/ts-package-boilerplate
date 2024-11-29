@@ -1,10 +1,10 @@
 .vscode/
 
 .editorconfig
-.eslintignore
-.eslintrc.js
 .lintstagedrc
 .prettierignore
 .prettierrc.json
 .tsbuildinfo
+eslint.config.mjs
 tsconfig.json
+vite.config.js
