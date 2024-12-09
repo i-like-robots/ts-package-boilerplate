@@ -20,7 +20,7 @@
     "build": "pkgroll",
     "type-check": "tsc --noEmit",
     "lint": "eslint .",
-    "format": "prettier --write '**/*.{ts,tsx,js,cjs,mjs,jsx,json,yml}'",
+    "format": "prettier $([ $CI ] && echo '--check' || echo '--write') '**/*.{cjs,mjs,js,jsx,ts,tsx,json,yml}'",
     "spec": "vitest run",
     "verify": "npm run lint && npm run type-check && npm run format",
     "test": "npm run verify && npm run spec",
