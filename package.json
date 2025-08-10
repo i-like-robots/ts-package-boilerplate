@@ -25,7 +25,7 @@
     "verify": "npm run lint && npm run type-check && npm run format",
     "test": "npm run verify && npm run spec",
     "prepublishOnly": "npm run test && npm run build",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "Matt Hinchliffe",
@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/node": "^22.10.0",
     "eslint": "^9.15.0",
-    "husky": "^8.0.0",
+    "husky": "^9.1.0",
     "lint-staged": "^15.2.10",
     "pkgroll": "^2.5.0",
     "prettier": "^3.4.0",
